@@ -3,7 +3,7 @@ This repository contains the simulation code developed for analyzing non-overnig
 
 The simulation integrates empirical travel behavior with a charging decision model derived from a stated-preference survey. Here's how the model works:
 
-#Travel and vehicle simulation
+# Travel and vehicle simulation
 - Travel data source: the model uses real-world travel patterns from the 2016 Transportation Tomorrow Survey (TTS), representing weekday trip sequences in the Greater Toronto and Hamilton Area (GTHA).
 
 - Trip chains: each vehicle's daily travel is simulated using sequences of trips with estimated durations and destinations based on survey responses.
