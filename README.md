@@ -1,7 +1,17 @@
 # Model 
 This repository contains the simulation code developed for analyzing non-overnight electric vehicle (EV) charging behavior under varying infrastructure and pricing conditions in Ontario, Canada.
 
-The simulation integrates empirical travel behavior with a charging decision model derived from a stated-preference survey. Here's how the model works:
+The simulation integrates empirical travel behavior with a charging decision model derived from a stated-preference survey.
+
+# Data
+
+- **Transportation Tomorrow Survey 2016 (TTS 2016)**  
+  Primary dataset used for simulation.  
+  *Note: Original dataset is not distributed in this repo.*  
+
+- **Synthetic test data**  
+  A small toy dataset with the same structure as TTS 2016 to allow reproducibility of results and testing of the models.
+
 
 # Travel and vehicle simulation
 - Travel data source: the model uses real-world travel patterns from the 2016 Transportation Tomorrow Survey (TTS), representing weekday trip sequences in the Greater Toronto and Hamilton Area (GTHA).
@@ -37,7 +47,7 @@ At each stop in a vehicle’s simulated daily travel:
 # Alternative implementation
 An alternate design of the simulation logic is provided in the /alternative/ folder. This version implements the same core functionality using a different code structure or logic flow. It may be useful for comparison, optimization, or experimentation with alternative approaches.
 
-# ⚠️ Disclaimer
+# ⚠️ [Disclaimer](https://hdl.handle.net/10012/22330)
 This simulation code was developed as part of my Master’s thesis:
 “Advancing Disaggregate Modeling of Electric Vehicle Charging Behaviour” at the University of Waterloo (2025).
 The thesis is not yet published, and this repository is intended to support transparency and reproducibility of the simulation component.
